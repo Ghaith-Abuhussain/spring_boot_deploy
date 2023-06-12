@@ -1,0 +1,14 @@
+server:
+  port:
+    27015
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:containers-us-west-126.railway.app}:6652/railway
+    username: root
+    password: pfwbO83Q4ebG3r31cBz1
+    driver-class-name: com.mysql.cj.jdbc.Driver
